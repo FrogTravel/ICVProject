@@ -58,5 +58,5 @@ class FaceLandmarksDataset(Dataset):
         for (x, y) in coordinates_int:
             normalized_points.append(((x - xmin.double()) / width.double(), (y - ymin.double()) / height.double()))
 
-        return image, [(torch.tensor([xmin, ymin, width, height]), normalized_points)]
+        return image, [(torch.tensor([xmin, ymin, width, height]), torch.tensor(normalized_points))]
 
