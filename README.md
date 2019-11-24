@@ -1,3 +1,5 @@
 # 3D-Face
 
-A model to predict 3D landmarks from a monocular RGB image.
+```pip install -r requirements.txt```
+Start test.ipynb
+Follow instructions in test.ipynb file
