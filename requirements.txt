@@ -1,4 +1,11 @@
-torch 
-albumentations 
-tqdm 
+torch
+albumentations
+tqdm
 loguru
+open-cv
+Pillow
+pandas
+numpy
+matplotlib
+skimage
+torchfile
